@@ -1,0 +1,77 @@
+.center-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.comment-card-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px !important;
+  width: 100%; 
+  margin: 0 auto; 
+}
+
+.custom-card {
+  width: 80%;
+  max-width: 1200px;
+  max-height: 800px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  background-color: white;
+  font-family: "Jost", sans-serif;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row; 
+}
+
+.comment-area {
+  flex: 1;
+  padding-right: 20px;
+  overflow-y: auto;
+  max-height: 400px;
+  width: 100%; 
+}
+
+.custom-header {
+  font-size: 24px;
+}
+
+.custom-body {
+  font-size: 20px !important;
+}
+
+.custom-typography {
+  font-size: 20px !important;
+}
+
+.action-button {
+  font-size: 20px !important;
+  padding: 0px 20px !important;
+  height: 30px !important;
+  background-color: #872746 !important;
+  color: white !important;
+  min-width: 80px !important;
+}
+
+.custom-dropdown-item {
+  color: #000 !important;
+  min-width: 180px !important;
+}
+
+.search-dropdown-menu {
+  font-size: 20px !important;
+  min-width: 600px !important;
+}
+
+.MDBBtn.btn-custom {
+  font-size: 16px; 
+  padding: 10px 20px; 
+}
+
+.comment-button {
+  font-size: 14px !important;
+  padding: 10px 20px;
+}
